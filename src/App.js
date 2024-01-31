@@ -1,4 +1,4 @@
-import torso from '../public/torso.png';
+import torso from './images/torso.png';
 import './App.css';
 
 function App() {
