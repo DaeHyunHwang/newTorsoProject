@@ -9,7 +9,7 @@ function App() {
         <div className="le-dv"></div>
         <div className="ri-dv"></div>
       </div>
-      <div className="mainBody">
+      <div class="mainBody">
         
       </div>
   );
