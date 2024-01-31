@@ -41,13 +41,6 @@
     height: 100%;
 }
 
-.mainDiv .le-dv, .mainDiv .ri-dv {
-    position: fixed;
-    width: 1px;
-    top: 0px;
-    height: 100%;
-    background: rgb(248, 248, 248);
-}
 
 
 
