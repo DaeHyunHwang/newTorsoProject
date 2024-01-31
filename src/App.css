@@ -32,73 +32,6 @@
   color: #61dafb;
 }
 
-.menuList{
-  position: fixed;
-  top: 1.2rem;
-  left: 50%;
-  transform: translate(-50%, 0px);
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  font-size: 2.5rem;
-  color: rgb(189, 189, 189);
-  font-weight: 700;
-  user-select: none;
-}
-
-.menuList > div {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  margin-right: 3vw;
-}
-
-.menuList > div .active{
-  color: rgb(34, 34, 34);
-}
-
-.menuList .step {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  border-radius: 100%;
-  margin-right: 2rem;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.startBtn {
-  appearance: none;
-  border-radius: 0px;
-  font-size: 1.6rem;
-  font-weight: 700;
-  display: block;
-  cursor: pointer;
-  padding: 0.7em 2.25em 0.9em;
-  min-height: 2.954em;
-  width: 100%;
-  margin-bottom: 1em;
-  background: rgb(34, 34, 34);
-  color: rgb(255, 255, 255);
-}
-
-.helpMsg {
-  display: block;
-  margin-top: 2.5rem;
-  font-weight: 500;
-  color: rgb(96, 96, 96);
-  text-align: center;
-  width: 100%;
-}
-
-.App h3 {
-  padding: 0em 0px calc(8.4rem);
-}
-
 .mainDiv {
     pointer-events: none;
     position: fixed;
@@ -106,60 +39,6 @@
     top: 0px;
     width: 100%;
     height: 100%;
-}
-
-.mainDiv .le-dv {
-    left: 1.5rem;
-}
-
-.mainDiv .le-dv, .mainDiv .ri-dv {
-    position: fixed;
-    width: 1px;
-    top: 0px;
-    height: 100%;
-    background: rgb(248, 248, 248);
-}
-
-.mainDiv::before {
-    display: block;
-    position: absolute;
-    content: "";
-    background-position: center top;
-    background-size: 20rem 10rem;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-}
-
-.mainBody {
-    padding: 1.2rem 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 2.5rem;
-    min-height: 100%;
-}
-
-.AppBody {
-    grid-column: 1 / 13;
-    min-height: calc(-4.8rem + 100vh);
-    padding-top: clamp(4.461rem, -1.17101rem + 11.1525vw, 17.844rem);
-    margin-top: 1.2rem;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    padding-bottom: 12%;
-}
-
-.AppBody > div {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.AppLogo {
-    margin: 4rem 0px;
-    text-align: center;
-    width: 100%;
 }
 
 @keyframes App-logo-spin {
