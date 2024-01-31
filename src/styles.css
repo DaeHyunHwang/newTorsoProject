@@ -1,5 +1,10 @@
+* {
+  white-space: pre-wrap;
+  font-family: acumin-pro, pretendard, "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, -apple-system, system-ui, "Noto Sans KR", sans-serif;
+  font-style: normal;
+}
+
 h3 {
-  white-space: pre-line;
   font-size: 1.7rem;
   font-weight: 700;
 }
