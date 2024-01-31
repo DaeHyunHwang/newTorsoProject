@@ -13,7 +13,7 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +33,7 @@
   top: 2rem;
   transform: translate(-50%, 0px);  
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: rgb(189, 189, 189);
 }
