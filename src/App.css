@@ -37,6 +37,13 @@
   font-weight: 700;
 }
 
+.menuList > div {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 3vw;
+}
+
 .menuList.active{
   color: rgb(34, 34, 34);
 }
