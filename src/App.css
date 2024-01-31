@@ -27,8 +27,19 @@
 }
 
 .menuList{
+  position: fiexd;
   display: flex;
   align-items: center;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  font-size: 1.6rem;
+  font-weight: 700;
+  top: 2rem;
+  -webkit-box-align: center;
+}
+
+.menuList .active{
+  color: rgb(34, 34, 34);
 }
 
 @keyframes App-logo-spin {
