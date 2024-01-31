@@ -19,8 +19,7 @@ function App() {
       <header className="App-header">
         <img src={torso} className="App-torso" alt="torso" />
         
-        <Button>셀프 체크인 시작하기</Button>
-        <Button>도움이 필요하시면 <span class="underline">여기</span>를 눌러 직원을 호출해주세요.</Button>
+        
       </header>
       
     </div>
