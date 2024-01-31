@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
         <img src={torso} className="App-torso" alt="torso" />
       </header>
-      <h3>반갑습니다<br>토르소포맨 홍대상수점 입니다</h3>
+      <h3>반갑습니다\n토르소포맨 홍대상수점 입니다</h3>
     </div>
   );
 }
