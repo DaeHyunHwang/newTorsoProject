@@ -45,11 +45,11 @@
     margin-right: 3vw;
 }
 
-.menuList.active{
+.menuList .active{
   color: rgb(34, 34, 34);
 }
 
-.menuList.step {
+.menuList .step {
     display: flex;
     align-items: center;
     justify-content: center;
