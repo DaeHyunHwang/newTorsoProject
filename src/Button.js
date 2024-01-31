@@ -1,10 +1,10 @@
 import React  from 'react';
 
-function Button(props){
+export default function (props){
   const { label, styleClass, onClick, disabled } = props;
-  return (<button className={styleClass} onClick={onClick} disabled={disabled}>
+  return (
+  <button className={styleClass} onClick={onClick} disabled={disabled}>
     {label}
-  </button>);
+  </button>
+  );
 }
-
-export default Button;
