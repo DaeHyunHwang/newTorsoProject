@@ -1,6 +1,5 @@
 import torso from './torso.png';
 import './App.css';
-import Button from './Button.js'
 
 function App() {
   return (
