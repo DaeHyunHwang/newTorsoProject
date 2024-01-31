@@ -4,8 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div class="menuList">
+      <div class="menuList">
           <div class="active">
             <span class="step">1</span><span><span>예약확인</span></span>
           </div>
@@ -16,6 +15,7 @@ function App() {
           <span class="step">3</span><span><span>입장대기</span></span>
           </div>
         </div>
+      <header className="App-header">
         <img src={torso} className="App-torso" alt="torso" />
       </header>
     </div>
