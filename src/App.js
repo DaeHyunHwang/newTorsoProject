@@ -6,6 +6,10 @@ import Button from "./Button.js";
 function App() {
   return (
     <div className="App">
+      <div class="mainDiv">
+        <div class="le-dv"></div>
+        <div class="ri-dv"></div>
+      </div>
       <div class="menuList">
           <div class="active">
             <span class="step">1</span><span><span>예약확인</span></span>
