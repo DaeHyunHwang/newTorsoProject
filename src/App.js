@@ -22,9 +22,11 @@ function App() {
             </div>
         </div>
         <div className="AppBody">
-          <header className="App-header">
-            <img src={torso} className="App-torso" alt="torso" />
-          </header>
+          <div className="AppLogo">
+            <header className="App-header">
+              <img src={torso} className="App-torso" alt="torso" />
+            </header>
+          </div>
           <h3>반갑습니다\n토르소포맨 홍대상수점 입니다</h3>
           <Button label="셀프 체크인 시작하기" styleClass="startBtn" onClick="" disabled={false} />
         </div>
