@@ -27,6 +27,12 @@
   color: #61dafb;
 }
 
+.AppBody {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .menuList{
   display: flex;
   position: fixed;
@@ -40,9 +46,9 @@
 }
 
 .menuList > div {
-    display: flex;
-    align-items: center;
-    margin-right: 3vw;
+  display: flex;
+  align-items: center;
+  margin-right: 3vw;
 }
 
 .menuList .active{
@@ -50,43 +56,43 @@
 }
 
 .menuList .step {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 2rem;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .startBtn {
-    appearance: none;
-    border-radius: 0px;
-    font-size: 1.6rem;
-    font-weight: 700;
-    display: block;
-    cursor: pointer;
-    padding: 0.7em 2.25em 0.9em;
-    min-height: 2.954em;
-    width: 100%;
-    margin-bottom: 1em;
-    background: rgb(34, 34, 34);
-    color: rgb(255, 255, 255);
+  appearance: none;
+  border-radius: 0px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+  padding: 0.7em 2.25em 0.9em;
+  min-height: 2.954em;
+  width: 100%;
+  margin-bottom: 1em;
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
 }
 
 .helpMsg {
-    display: block;
-    margin-top: 2.5rem;
-    font-weight: 500;
-    color: rgb(96, 96, 96);
-    text-align: center;
-    width: 100%;
+  display: block;
+  margin-top: 2.5rem;
+  font-weight: 500;
+  color: rgb(96, 96, 96);
+  text-align: center;
+  width: 100%;
 }
 
 .App h3 {
-    padding: 0em 0px calc(8.4rem);
+  padding: 0em 0px calc(8.4rem);
 }
 
 @keyframes App-logo-spin {
