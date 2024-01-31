@@ -139,6 +139,29 @@
     min-height: 100%;
 }
 
+.AppBody {
+    grid-column: 1 / 13;
+    min-height: calc(-4.8rem + 100vh);
+    padding-top: clamp(4.461rem, -1.17101rem + 11.1525vw, 17.844rem);
+    margin-top: 1.2rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-bottom: 12%;
+}
+
+.AppBody > div {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AppLogo {
+    margin: 4rem 0px;
+    text-align: center;
+    width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
