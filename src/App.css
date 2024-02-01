@@ -151,12 +151,9 @@
 .mainFooter {
   position: fixed;
   width: 100%;
-  margin-top:0;
   background-color: #fff;
-  z-index:9;
   white-space: nowrap;
-  display: flex;
-  margin-left: -40px;
+  bottom: 0;
 }
 
 @keyframes App-logo-spin {
