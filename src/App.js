@@ -16,6 +16,8 @@ function App() {
         <header className="App-header">
           <img src={torso} className="App-torso" alt="torso" />
         </header>
+        <h3>반갑습니다<p>토르소포맨 홍대상수점 입니다</p></h3>
+        <button className="startBtn">셀프 체크인 시작하기</button>
       </div>
   );
 }
