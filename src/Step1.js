@@ -17,9 +17,7 @@ function Home(){
 function Step1() {
   return (
       <div className="mainBody">
-        <header className="App-header">
           <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
-        </header>
       </div>
   );
 }
