@@ -18,9 +18,8 @@ function Home(){
     );
 }
 
-selectMaster = (event) => {
-  const value = event.target.getAttribute('data-value');
-  alert(value);
+const selectMaster = (masterValue) => {
+  alert(masterValue);
 };
 
 function Step1() {
@@ -36,10 +35,10 @@ function Step1() {
           <div className="masterTab">
             <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
             <ul className="masterList">
-              <li><a href="#" data-value="master1" onClick="{this.selectMaster}" ><img src={master1} className="" alt="master1" /><p><label>도하쌤</label></p></a></li>
-              <li><a href="#" data-value="master2" onClick="{this.selectMaster}" ><img src={master2} className="" alt="master2" /><p><label>민종쌤</label></p></a></li>
-              <li><a href="#" data-value="master3" onClick="{this.selectMaster}" ><img src={master3} className="" alt="master3" /><p><label>태원쌤</label></p></a></li>
-              <li><a href="#" data-value="master4" onClick="{this.selectMaster}" ><img src={master4} className="" alt="master4" /><p><label>진성쌤</label></p></a></li>
+              <li><a href="#" onClick="{()=>selectMaster('master1')}" ><img src={master1} className="" alt="master1" /><p><label>도하쌤</label></p></a></li>
+              <li><a href="#" onClick="{()=>selectMaster('master2')}" ><img src={master2} className="" alt="master2" /><p><label>민종쌤</label></p></a></li>
+              <li><a href="#" onClick="{()=>selectMaster('master3')}" ><img src={master3} className="" alt="master3" /><p><label>태원쌤</label></p></a></li>
+              <li><a href="#" onClick="{()=>selectMaster('master4')}" ><img src={master4} className="" alt="master4" /><p><label>진성쌤</label></p></a></li>
             </ul>
           </div>
         <div className="mainFooter">
