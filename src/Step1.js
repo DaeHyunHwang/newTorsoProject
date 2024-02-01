@@ -38,7 +38,7 @@ function Step1() {
           </div>
         <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
         <div className="mainFooter">
-          <button className="startBtn" onClick={Home}>이전</button>
+          <button className="homeBtn" onClick={Home}>이전</button>
         </div>
       </div>
   );
