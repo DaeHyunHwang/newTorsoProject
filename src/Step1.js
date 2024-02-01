@@ -24,7 +24,10 @@ function Step1() {
               <li className="">입장대기</li>
             </ul>
           </div>
-          <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
+        <header className="App-header">
+        </header>
+        <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
+        <button className="startBtn" onClick={Home}>홈으로</button>
       </div>
   );
 }
