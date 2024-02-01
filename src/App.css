@@ -52,7 +52,7 @@
 }
 
 .tab_typeL .tabList li.on{
-  border-top: 2px solid #507aff;
+  border-bottom: 2px solid #507aff;
   color: #026bee;
   font-weight: 500;
 }
@@ -78,7 +78,7 @@
   height: 40px;
   color: #666;
   font-size: 0.875rem;
-  text-algin: center;
+  text-align: center;
   vertical-align: middle;
 }
 
