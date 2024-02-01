@@ -134,7 +134,7 @@
   z-index:9;
   white-space: nowrap;
   display: flex;
-  top: 60vh;
+  top: 10vh;
 }
 
 .masterTab .masterList li{
