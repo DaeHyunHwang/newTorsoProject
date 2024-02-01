@@ -132,6 +132,7 @@
   z-index:9;
   white-space: nowrap;
   display: flex;
+  margin-left: -40px;
 }
 
 .masterTab .masterList li{
@@ -142,6 +143,8 @@
 
 .masterTab .masterList li img {
   object-fit: fill;
+  width: 100%;
+  height: 100%;
 }
 
 @keyframes App-logo-spin {
