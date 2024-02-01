@@ -18,11 +18,10 @@ function Home() {
     );
 }
 
-function selectMaster(masterValue) {
-  alert(masterValue);
-};
-
 function Step1() {
+  const selectMaster = (masterValue) => {
+    alert(masterValue);
+  };
   return (
       <div className="mainBody">
           <div className="tabWrap tab_typeL">
