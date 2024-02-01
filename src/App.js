@@ -2,12 +2,18 @@ import torso from './torso.png';
 import './App.css';
 import './styles.css';
 import Button from "./Button.js";
+import Step1 from './Step1';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
 function startSelfCheck(){
-  alert("다음 페이지 예정이다우");
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+      <React.StrictMode>
+        <Step1 />
+      </React.StrictMode>
+    );
 }
 
 function App() {
