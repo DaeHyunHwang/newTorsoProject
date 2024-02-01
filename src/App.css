@@ -66,6 +66,13 @@
   outline: none;
 }
 
+.tabList {
+  display: table;
+  width: 100%;
+  margin-bottom: 20px;
+  table-layout: fixed;
+}
+
 .tabList > li{
   display: table-cell;
   height: 40px;
