@@ -11,6 +11,7 @@
 }
 
 html, body, #root {
-  height: calc(var(--vh) * 100);
-  overflow-x: hidden;
+    height: calc(var(--vh) * 100);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
