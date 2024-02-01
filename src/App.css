@@ -45,6 +45,7 @@
   z-index:9;
   white-space: nowrap;
   display: flex;
+  margin-left: -40px;
 }
 
 .tab_typeL .tabList li{
