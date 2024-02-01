@@ -140,6 +140,10 @@
   padding: 0 5px;
 }
 
+.masterTab .masterList li img {
+  object-fit: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
