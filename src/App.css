@@ -141,7 +141,7 @@
 }
 
 .masterTab .masterList li img {
-  object-fit: cover;
+  object-fit: fill;
 }
 
 @keyframes App-logo-spin {
