@@ -148,6 +148,17 @@
   height: 100%;
 }
 
+.mainFooter {
+  position: fixed;
+  width: 100%;
+  margin-top:0;
+  background-color: #fff;
+  z-index:9;
+  white-space: nowrap;
+  display: flex;
+  margin-left: -40px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
