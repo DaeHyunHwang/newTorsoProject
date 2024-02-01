@@ -26,22 +26,12 @@ function Step1() {
             </ul>
           </div>
           <div className="masterList">
-            <div className="master_1">
-              <img src={torso} className="" alt="torso" />
-              <label>도하쌤</label>
-            </div>
-            <div className="master_2">
-              <img src={torso} className="" alt="torso" />
-              <label>민종쌤</label>
-            </div>  
-            <div className="master_3">
-              <img src={torso} className="" alt="torso" />
-              <label>태원쌤</label>
-            </div>
-            <div className="master_4">
-              <img src={torso} className="" alt="torso" />
-              <label>진성쌤</label>
-            </div>
+            <ul>
+              <li><img src={torso} className="" alt="torso" /><p><label>도하쌤</label></p></li>
+              <li><img src={torso} className="" alt="torso" /><p><label>민종쌤</label></p></li>
+              <li><img src={torso} className="" alt="torso" /><p><label>태원쌤</label></p></li>
+              <li><img src={torso} className="" alt="torso" /><p><label>진성쌤</label></p></li>
+            </ul>
           </div>
         <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
         <button className="startBtn" onClick={Home}>홈으로</button>
