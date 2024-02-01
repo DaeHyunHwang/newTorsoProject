@@ -32,75 +32,38 @@
   color: #61dafb;
 }
 
-.mainDiv {
-    pointer-events: none;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
+.tab_typeL {
+  margin:15px -20px 0;
 }
 
-.mainDiv .le-dv, .mainDiv .ri-dv {
-    position: fixed;
-    width: 1px;
-    top: 0px;
-    height: 100%;
-    background: rgb(248, 248, 248);
-}
-
-.mainDiv::before {
-    display: block;
-    position: absolute;
-    content: "";
-    background-position: center top;
-    background-size: 20rem 10rem;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-}
-
-.mainContent {
-    padding: 1.2rem 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 2.5rem;
-    min-height: 100%;
-}
-
-.menuList{
+.tab_typeL .tabList{
   position: fixed;
-  top: 1.2rem;
-  left: 50%;
-  transform: translate(-50%, 0px);
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  font-size: 1.5rem;
-  color: rgb(189, 189, 189);
-  font-weight: 700;
-  user-select: none;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  margin-bottom:0;
+  background-color: #fff;
+  z-index:9;
 }
 
-.menuList > div {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  margin-right: 3vw;
+.tab_typeL .tabList li{
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
-.menuList > div .active{
-  color: rgb(34, 34, 34);
+.tab_typeL .tabList li .on{
+  border-top: 2px solid #507aff;
+  color: #026bee;
+  font-weight: 500;
 }
 
-.menuList .step {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  border-radius: 100%;
-  margin-right: 2rem;
+.tab_typeL .tabList button{
+  height:36px;
+}
+
+.tab_typeL .tabCont{
+  padding:20px 20px 0;
+  outline: none;
 }
 
 @keyframes App-logo-spin {
