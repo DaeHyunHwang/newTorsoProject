@@ -116,7 +116,7 @@
 }
 
 .masterTab {
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,6 +133,7 @@
   white-space: nowrap;
   display: flex;
   margin-left: -40px;
+  top: 150px;
 }
 
 .masterTab .masterList li{
