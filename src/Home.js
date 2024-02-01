@@ -1,4 +1,8 @@
 import { useNavigate } from "react-router-dom";
+import torso from './torso.png';
+import './App.css';
+import './styles.css';
+import Button from "./Button.js";
 
 export default function home() {
   const movePage = useNavigate();
