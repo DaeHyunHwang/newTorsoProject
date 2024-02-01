@@ -151,6 +151,7 @@
     white-space: nowrap;
     display: flex;
     top: 10vh;
+    height: 150px;
   }
 }
 
