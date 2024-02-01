@@ -1,4 +1,4 @@
-html, body {
+html, body, #root {
   width: 100%;
   min-height: 100%;
   font-family: 'Roboto', 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Aplle SD Gothic Neo', sans-serif;
