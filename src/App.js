@@ -4,7 +4,6 @@ import './styles.css';
 import Button from "./Button.js";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './home.js';
-import Step1 from './step1.js';
 
 export default function App() {
   
@@ -13,7 +12,6 @@ export default function App() {
       <BrowserRouter>
           <Routes>
               <Route path={"/"} element={<Home />}></Route>
-              <Route path={"/step1"} element={<Step1 />}></Route>
           </Routes>
         </BrowserRouter>
     </div>
