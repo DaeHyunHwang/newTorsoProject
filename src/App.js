@@ -2,19 +2,20 @@ import torso from './torso.png';
 import './App.css';
 import './styles.css';
 import Button from "./Button.js";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './home';
+import Step1 from './step1';
 
-function startSelfCheckPage() {
+function StartSelfCheckPage() {
   return(
-    <Link to="/step1">
+    <div className="mainBody">
       <h1>다음 페이지...</h1>
-    </Link>
+    </div>
   )
 }
 
-function mainPage() {
+function MainPage() {
   return(
-    <Link to="/">
       <div className="mainBody">
         <div className="tabWrap tab_typeL">
             <ul className="tabList">
@@ -27,25 +28,22 @@ function mainPage() {
           <img src={torso} className="App-torso" alt="torso" />
         </header>
         <h3>반갑습니다<p>토르소포맨 홍대상수점 입니다</p></h3>
-        <Button label="셀프 체크인 시작하기" styleClass="startBtn" onClick="startSelfCheckPage()" />
+        <Button label="셀프 체크인 시작하기" styleClass="startBtn" onClick="StartSelfCheckPage()" />
         <a href="#" className="helpMsg">도움이 필요하시면 <span className="underline">여기</span>를 눌러 직원을 호출해주세요.</a>
       </div>
-    </Link>
   )
 }
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/">
-          <mainPage />
-        </Route>
-        <Route path="/step1">
-          <mainPage />
-        </Route>
-      </Switch>
-    </Router>
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+            <Route path={"/"} element={<MainPage />}></Route>
+            <Route path={"/step1"} element={<StartSelfCheckPage />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
