@@ -1,1 +1,12 @@
-
+html, body {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f9f9f9;
+  color: #666;
+  font-family: 'Roboto', 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Aplle SD Gothic Neo', sans-serif;
+  font-size: 16px;
+  ling-height: 1.5;
+  word-break: break-all;
+  work-wrap: break-word;
+  overscroll-behavior-y: none;
+}
