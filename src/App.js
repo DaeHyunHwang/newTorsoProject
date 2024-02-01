@@ -2,6 +2,11 @@ import torso from './torso.png';
 import './App.css';
 import './styles.css';
 import Button from "./Button.js";
+
+function startSelfCheck(){
+  alert("다음 페이지 이동예정");
+}
+
 function App() {
   return (
       <div className="mainBody">
