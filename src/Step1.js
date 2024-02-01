@@ -1,5 +1,6 @@
 import './App.css';
 import './styles.css';
+import torso from './torso.png';
 import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
