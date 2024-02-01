@@ -127,14 +127,14 @@
 }
 
 .masterTab .masterList{
-  position: fixed;
+  position: relative;
   width: 100%;
   margin-bottom:0;
   background-color: #fff;
   z-index:9;
   white-space: nowrap;
   display: flex;
-  top: 150px;
+  top: 60vh;
 }
 
 .masterTab .masterList li{
