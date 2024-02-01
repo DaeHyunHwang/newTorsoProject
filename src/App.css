@@ -140,15 +140,61 @@
   font-size: calc(10px + 2vmin);
 }
 
-.masterTab .masterList{
-  position: relative;
-  width: 100%;
-  margin-bottom:0;
-  background-color: #fff;
-  z-index:9;
-  white-space: nowrap;
-  display: flex;
-  top: 10vh;
+@media screen and (max-width:1799px) {
+/* 데스크탑 */
+  .masterTab .masterList{
+    position: relative;
+    width: 100%;
+    margin-bottom:0;
+    background-color: #fff;
+    z-index:9;
+    white-space: nowrap;
+    display: flex;
+    top: 10vh;
+  }
+}
+
+@media screen and (max-width:1199px) {
+/* 타블렛 가로 */
+    .masterTab .masterList{
+    position: relative;
+    width: 100%;
+    margin-bottom:0;
+    background-color: #fff;
+    z-index:9;
+    white-space: nowrap;
+    display: flex;
+    top: 10vh;
+    height: 150px;
+  }
+}
+@media screen and (max-width:899px) {
+/* 모바일 가로, 타블렛 세로 */
+  .masterTab .masterList{
+    position: relative;
+    width: 100%;
+    margin-bottom:0;
+    background-color: #fff;
+    z-index:9;
+    white-space: nowrap;
+    display: flex;
+    top: 10vh;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width:599px) {
+/* 모바일 세로 */
+  .masterTab .masterList{
+    position: relative;
+    width: 100%;
+    margin-bottom:0;
+    background-color: #fff;
+    z-index:9;
+    white-space: nowrap;
+    display: flex;
+    top: 10vh;
+  }
 }
 
 .masterTab .masterList li{
