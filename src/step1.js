@@ -1,5 +1,6 @@
 import "./styles.css";
 import { useNavigate } from "react-router-dom";
+import Button from "./Button.js";
 
 export default function step1() {
   const movePage = useNavigate();
@@ -11,7 +12,7 @@ export default function step1() {
   return (
     <div className="mainBody">
       여긴 다음페이지 예정
-      <button onClick={gohome}>홈으로이동</button>
+      <Button label="홈으로이동" onClick="gohome}" />
       </div>
   );
 }
