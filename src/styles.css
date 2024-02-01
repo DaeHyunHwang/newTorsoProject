@@ -1,10 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: acumin-pro, pretendard, "Helvetica Neue LT", "Helvetica Neue", Helvetica, Arial, -apple-system, system-ui, "Noto Sans KR", sans-serif;
+    font-style: normal;
+    position: relative;
+    box-sizing: border-box;
+    word-break: keep-all;
+    white-space: pre-wrap;
+    -webkit-font-smoothing: antialiased;
+}
+
 html, body, #root {
-  width: 100%;
-  min-height: 100%;
-  font-family: 'Roboto', 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Aplle SD Gothic Neo', sans-serif;
-  font-size: 16px;
-  ling-height: 1.5;
-  word-break: break-all;
-  work-wrap: break-word;
-  overscroll-behavior-y: none;
+  height: calc(var(--vh) * 100);
+  overflow-x: hidden;
 }
