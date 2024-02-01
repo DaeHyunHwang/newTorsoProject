@@ -6,22 +6,12 @@ import Button from "./Button.js";
 function App() {
   return (
       <div className="mainBody">
-        <div className="mainDiv">
-          <div className="le-dv"></div>
-          <div className="ri-dv"></div>
-        </div>
-        <div className="mainContent">
-          <div className="menuList">
-            <div className="active">
-              <span className="step">1</span><span><span>예약확인</span></span>
-            </div>
-            <div className="">
-            <span className="step">2</span><span><span>모발체크</span></span>
-            </div>
-            <div className="">
-            <span className="step">3</span><span><span>입장대기</span></span>
-            </div>
-          </div>
+        <div className="tabWrap tab_typeL">
+            <ul className="tabList">
+              <li className="on">예약확인</li>
+              <li className="">모발체크</li>
+              <li className="">입장대기</li>
+            </ul>
         </div>
       </div>
   );
