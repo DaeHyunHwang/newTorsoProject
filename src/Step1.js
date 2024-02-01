@@ -29,6 +29,7 @@ function Step1() {
             </ul>
           </div>
           <div className="masterTab">
+            <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
             <ul className="masterList">
               <li><img src={master1} className="" alt="master1" /><p><label>도하쌤</label></p></li>
               <li><img src={master2} className="" alt="master2" /><p><label>민종쌤</label></p></li>
@@ -36,7 +37,6 @@ function Step1() {
               <li><img src={master4} className="" alt="master4" /><p><label>진성쌤</label></p></li>
             </ul>
           </div>
-        <div className="title"><h3>어떤 선생님으로 예약해주셨나요?</h3></div>
         <div className="mainFooter">
           <button className="homeBtn" onClick={Home}>이전</button>
         </div>
