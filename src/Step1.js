@@ -9,7 +9,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-function Home(){
+function Home() {
   const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
@@ -18,7 +18,7 @@ function Home(){
     );
 }
 
-const selectMaster = (masterValue) => {
+function selectMaster(masterValue) {
   alert(masterValue);
 };
 
