@@ -48,6 +48,9 @@
 .tab_typeL .tabList li{
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .tab_typeL .tabList li.on{
