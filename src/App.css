@@ -33,6 +33,7 @@
 
 .mainBody {
   text-align: center;
+  overflow-y: scroll;
 }
 
 .tab_typeL .tabList{
