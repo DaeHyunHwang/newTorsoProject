@@ -25,8 +25,8 @@ function Step1() {
               <li className="">입장대기</li>
             </ul>
           </div>
-          <div className="masterList">
-            <ul>
+          <div className="masterTab">
+            <ul className="masterList">
               <li><img src={torso} className="" alt="torso" /><p><label>도하쌤</label></p></li>
               <li><img src={torso} className="" alt="torso" /><p><label>민종쌤</label></p></li>
               <li><img src={torso} className="" alt="torso" /><p><label>태원쌤</label></p></li>
