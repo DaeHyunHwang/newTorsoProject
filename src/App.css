@@ -66,6 +66,15 @@
   outline: none;
 }
 
+.tabList > li{
+  display: table-cell;
+  height: 40px;
+  color: #666;
+  font-size: 0.875rem;
+  text-algin: center;
+  vertical-align: middle;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
