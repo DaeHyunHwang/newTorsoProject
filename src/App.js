@@ -2,9 +2,15 @@ import torso from './torso.png';
 import './App.css';
 import './styles.css';
 import Button from "./Button.js";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
+
+function startSelfCheck(){
+  alert("다음 페이지 예정이다우");
+}
 
 function App() {
-  const startSelfCheck = () => alert("다음 페이지 예정");
   return (
       <div className="mainBody">
         <div className="tabWrap tab_typeL">
