@@ -13,6 +13,9 @@ function App() {
               <li className="">입장대기</li>
             </ul>
         </div>
+        <header className="App-header">
+          <img src={torso} className="App-torso" alt="torso" />
+        </header>
       </div>
   );
 }
