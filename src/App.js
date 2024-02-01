@@ -3,8 +3,8 @@ import './App.css';
 import './styles.css';
 import Button from "./Button.js";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './home';
-import Step1 from './step1';
+import Home from './home.js';
+import Step1 from './step1.js';
 
 export default function App() {
   
